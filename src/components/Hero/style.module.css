@@ -1,0 +1,58 @@
+.hero {
+  width: 100%;
+  display: grid;
+  grid-column: span 3 / span 3;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero h1{
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.content {
+  padding: 2em 0;
+}
+
+.heroImage {
+  background-image: url('../../assets/cake-food.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #79e6f2;
+  font-weight: 600;
+  color: #212121;
+  padding: .3em .5em .3em 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 12 / span 12;
+  }
+
+  .container {
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5em;
+  }
+}
