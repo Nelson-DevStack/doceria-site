@@ -2,6 +2,7 @@ import cookingImg from '../../assets/cooking.jpg';
 import kitchenImg from '../../assets/kitchen.jpg';
 import Container from '../Ui/Container/Container';
 import Heading from '../Ui/Heading';
+import Text from '../Ui/Text';
 import style from './style.module.css';
 
 const AboutSection = () => {
@@ -20,18 +21,22 @@ const AboutSection = () => {
           </div>
 
           <div className={style.textWrapper}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              corporis!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              corporis!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              corporis!
-            </p>
+            <Text>
+              Desde 1995, nossa empresa é voltada para a produção de diversos
+              tipos de Doces.
+            </Text>
+            <Text>
+              Com mais de 20 anos atuando no mercado de Gastrônomia, nossos
+              profissionais são formados e especializados em Confeitaria.
+            </Text>
+            <Text>
+              Não só confeitamos, nós fazemos a{' '}
+              <span style={{ color: '#BF3064', textDecoration: 'underline' }}>
+                {' '}
+                Arte da Confeitaria
+              </span>
+              .
+            </Text>
           </div>
         </div>
       </Container>

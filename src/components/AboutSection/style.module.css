@@ -1,6 +1,7 @@
 .section {
   width: 100%;
   grid-column: span 3;
+  padding: 2em 0;
 }
 
 .contentWrapper {
@@ -8,17 +9,32 @@
 }
 
 .contentWrapper h1 {
+  text-align: center;
+  margin: 1em 0;
 }
 
 .imagesWrapper {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .imagesWrapper img {
- /* width: 100%; */
   width: 150px;
   height: 220px;
   object-fit: cover;
+  box-shadow: rgba(214, 47, 139, 0.2) 5px 5px 2px;
+}
+
+.firstImg {
+  margin-right: 5em;
+  margin-bottom: 1em;
+}
+
+.secondImg {
+  margin-left: 5em;
+  margin-bottom: 1em;
 }
 
 /* .firstImg {
@@ -33,8 +49,8 @@
   object-fit: cover;
 } */
 
-.textWrapper {
-
+.textWrapper p{
+  margin: 1em 0;
 }
 
 @media screen and (min-width: 768px) {
