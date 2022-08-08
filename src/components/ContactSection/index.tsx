@@ -1,10 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import {
-  FaFacebook,
-  FaFacebookF,
-  FaInstagram,
-  FaWhatsapp,
-} from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 import secondWave from '../../assets/bluewave.svg';
 import contactImage from '../../assets/contact-image.jpg';

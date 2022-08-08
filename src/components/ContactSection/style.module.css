@@ -14,21 +14,17 @@
 .lastWaveWrapper {
   width: 100%;
   background-color: #BF3064;
-  margin-top: -10px;
 }
 
 .lastWaveWrapper img {
   transform: rotate(180deg);
+  margin-top: -10px;
 }
 
 .content {
   padding: 2em 0;
   background-color: #79E6F2;
 }
-
-/* .container {
-  display: grid;
-} */
 
 .imageWrapper {
   display: none;

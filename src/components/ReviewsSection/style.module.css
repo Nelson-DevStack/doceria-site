@@ -1,5 +1,5 @@
 .section {
-  padding: 3em 0;
+  padding: 0 0 8em 0;
   width: 100%;
   background-color: #BF3064;
   grid-column: span 3;
@@ -67,9 +67,8 @@
   .cardGrid {
     flex-direction: row;
     max-width: 100%;
-    border: 1px solid blue;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
   }
 
   .card {
