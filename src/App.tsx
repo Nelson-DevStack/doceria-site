@@ -1,8 +1,10 @@
 import './App.css';
 import AboutSection from './components/AboutSection';
+import ContactSection from './components/ContactSection';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ProductSection from './components/ProductSection';
+import ReviewsSection from './components/ReviewsSection';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <ProductSection />
       <AboutSection />
+      <ContactSection />
+      <ReviewsSection />
     </div>
   );
 }

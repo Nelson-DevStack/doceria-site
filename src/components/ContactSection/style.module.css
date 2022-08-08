@@ -1,0 +1,148 @@
+.section {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-column: span 3;
+}
+
+.waveWrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.lastWaveWrapper {
+  width: 100%;
+  background-color: #BF3064;
+  margin-top: -10px;
+}
+
+.lastWaveWrapper img {
+  transform: rotate(180deg);
+}
+
+.content {
+  padding: 2em 0;
+  background-color: #79E6F2;
+}
+
+/* .container {
+  display: grid;
+} */
+
+.imageWrapper {
+  display: none;
+}
+
+.imageWrapper img {
+  width: 100%;
+}
+
+.contentHeader{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.contentHeader h1 {
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  display: flex;
+  font-size: 1em;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 1em;
+}
+
+.form label input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+}
+
+.btn {
+  width: 100%;
+  font-size: 1em;
+  background-color: #BF3064;
+  padding: .8em;
+  color: #fafafa;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.btn:hover {
+  background-color: #b6104d;
+}
+
+.socialMedia {
+  margin-top: 2em;
+  max-width: max-content;
+  margin-right: 0;
+}
+
+.socialMedia p {
+  margin-bottom: 1em;
+}
+
+.iconsWrapper {
+  display: flex;
+  gap: 1em;
+}
+
+.iconWrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 5px 5px 1px;
+}
+
+.instaIcon {
+  background-color: #BF3064;
+}
+
+.fbIcon {
+  background-color: #1877F2;
+}
+
+.whatsappIcon {
+  background-color: #25D366;
+}
+
+@media screen and (min-width: 768px){
+  .section {
+    grid-column: span 12;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 5em;
+  }
+
+  .imageWrapper {
+    /* display: grid; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .imageWrapper img {
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,78 @@
+.section {
+  padding: 3em 0;
+  width: 100%;
+  background-color: #BF3064;
+  grid-column: span 3;
+}
+
+.secTitle h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  max-width: 200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.cardHeader h1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.faceIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.faceIcon img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+@media screen and (min-width: 768px) {
+  .section {
+    grid-column: span 12;
+  }
+
+  .secTitle h1 {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .cardGrid {
+    flex-direction: row;
+    max-width: 100%;
+    border: 1px solid blue;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .card {
+    max-width: 200px;
+  }
+}
