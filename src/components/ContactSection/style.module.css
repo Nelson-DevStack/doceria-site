@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   grid-column: span 3;
+  margin-top: -1em;
 }
 
 .waveWrapper {
@@ -120,6 +121,7 @@
 @media screen and (min-width: 768px){
   .section {
     grid-column: span 12;
+    margin-top: -8em;
   }
 
   .container {
