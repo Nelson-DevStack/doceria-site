@@ -27,7 +27,99 @@
 }
 
 .brand {
-  width: 2.5em;
+  color: #BF3064;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandImage {
+  /* width: 2.5em; */
+  width: 1.6em;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.navLinks {
+  /* display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  opacity: 0.8;
+  width: 100%;
+  min-height: 100vh;
+  right: 0;
+  padding: 1em 0 2em 0; */
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+
+  /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.64);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16.4px);
+-webkit-backdrop-filter: blur(16.4px);
+border: 1px solid rgba(255, 255, 255, 0.2); */
+
+/* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+
+  /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.35);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.2px);
+-webkit-backdrop-filter: blur(7.2px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+
+  /* From https://css.glass */
+  transition: 1000ms;
+  background: rgba(255, 255, 255, 0.94);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  /* background: rgba(191, 48, 100, 0.11); */
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  position: absolute;
+  /* background-color: #BF3064; */
+  min-width: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 80px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  transition: 800ms;
+}
+
+.hiddenNavLinks {
+  transform: translateX(1000px);
+  transition: 800ms;
+}
+
+.navLinks li {
+  margin: 1.4em;
+  /* margin-left: 2em; */
+  text-align: center;
+}
+
+.navLinks li a {
+  color: #343434;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 10px;
 }
 
 .menuBtn {
@@ -41,5 +133,13 @@
 @media screen and (min-width: 768px) {
   .navbar {
     grid-column: span 12 / span 12;
+  }
+
+  .navLinks {
+    display: flex;
+  }
+
+  .menuBtn {
+    display: none;
   }
 }
