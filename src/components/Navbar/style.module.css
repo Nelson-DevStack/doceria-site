@@ -16,6 +16,7 @@
 
 .container {
   height: 100%;
+  border: 1px solid red;
 }
 
 .navbarContent {
@@ -26,7 +27,7 @@
   justify-content: space-between;
 }
 
-.brand {
+.brandWrapper {
   color: #BF3064;
   font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
@@ -40,7 +41,11 @@
   /* width: 2.5em; */
   width: 1.6em;
   margin-right: 10px;
-  margin-top: -5px;
+  /* margin-top: -5px; */
+}
+
+.brand {
+  color: #BF3064;
 }
 
 .navLinks {
@@ -110,8 +115,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .navLinks li {
-  margin: 1.4em;
-  /* margin-left: 2em; */
+  margin: 1.8em;
   text-align: center;
 }
 
@@ -137,6 +141,33 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
   .navLinks {
     display: flex;
+    flex-direction: row;
+    height: initial;
+    position: static;
+    min-height: initial;
+    min-width: initial;
+    width: initial;
+    backdrop-filter: initial;
+    -webkit-backdrop-filter: initial;
+    top: 0;
+    margin: 0;
+  }
+
+  .navLinks ul {
+    display: flex;
+    padding: 0;
+    height: 100%;
+  }
+
+  .navLinks li {
+    margin: 0;
+    margin-left: 1.8em;
+  }
+
+  .navLinks li a {
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
   }
 
   .menuBtn {

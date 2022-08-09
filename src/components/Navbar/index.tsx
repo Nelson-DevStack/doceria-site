@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className={`${styles.navbar}`}>
       <Container className={styles.container}>
         <nav className={styles.navbarContent}>
-          <nav className={styles.brand}>
+          <nav className={styles.brandWrapper}>
             <a href="/">
               <img
                 src={cakeIcon}
@@ -29,14 +29,12 @@ const Navbar = () => {
                 alt="Brand Logo"
               />
             </a>
-            {/* {showBrandName ? 'Doceria' : null} */}
             <a
               href="/"
+              className={styles.brand}
               style={{
                 transition: '300ms',
-                // display: `${showBrandName ? 'hidden' : 'block'}`,
-                opacity: !showBrandName ? '0' : '1',
-                color: showBrandName ? '#000' : '#ff1100',
+                opacity: !showBrandName && !showNavbar ? '0' : '1',
               }}
             >
               Doceria
