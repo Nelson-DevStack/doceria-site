@@ -1,5 +1,5 @@
 .section {
-  background-color: #BF3064;
+  background-color: var(--mainColor);
   width: 100%;
   padding: 2em 0;
   grid-column: span 3;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiChevronRight } from 'react-icons/bi';
 
+import { MainColor } from '../Ui/Colors';
 import Container from '../Ui/Container/Container';
 import Heading from '../Ui/Heading';
 import Text from '../Ui/Text';
@@ -13,7 +14,7 @@ const Hero = () => {
         <div className={style.content}>
           <Heading>
             Experimente os{' '}
-            <span style={{ color: '#BF3064' }}>melhores doces</span>
+            <span style={{ color: MainColor }}>melhores doces</span>
           </Heading>
 
           <Text>Feito por profissionais e experts da Confeitaria</Text>

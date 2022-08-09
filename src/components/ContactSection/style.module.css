@@ -18,7 +18,7 @@
 
 .lastWaveWrapper {
   width: 100%;
-  background-color: #BF3064;
+  background-color: var(--mainColor);
 }
 
 .lastWaveWrapper img {
@@ -28,7 +28,7 @@
 
 .content {
   padding: 2em 0;
-  background-color: #79E6F2;
+  background-color: var(--skyBlue);
 }
 
 .imageWrapper {
@@ -72,7 +72,7 @@
 .btn {
   width: 100%;
   font-size: 1em;
-  background-color: #BF3064;
+  background-color: var(--mainColor);
   padding: .8em;
   color: #fafafa;
   font-weight: 500;
@@ -117,7 +117,7 @@
 }
 
 .instaIcon {
-  background-color: #BF3064;
+  background-color: var(--mainColor);
 }
 
 .fbIcon {

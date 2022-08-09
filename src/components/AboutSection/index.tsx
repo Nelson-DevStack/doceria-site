@@ -2,6 +2,7 @@ import React from 'react';
 
 import cookingImg from '../../assets/cooking.jpg';
 import kitchenImg from '../../assets/kitchen.jpg';
+import { MainColor } from '../Ui/Colors';
 import Container from '../Ui/Container/Container';
 import Heading from '../Ui/Heading';
 import Text from '../Ui/Text';
@@ -33,7 +34,7 @@ const AboutSection = () => {
             </Text>
             <Text>
               Não só confeitamos, nós fazemos a{' '}
-              <span style={{ color: '#BF3064', textDecoration: 'underline' }}>
+              <span style={{ color: MainColor, textDecoration: 'underline' }}>
                 {' '}
                 Arte da Confeitaria
               </span>

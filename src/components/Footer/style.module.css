@@ -7,7 +7,7 @@
 
 
 .brand {
-  color: #BF3064;
+  color: var(--mainColor);
   text-decoration: none;
   font-weight: 600;
   display: flex;

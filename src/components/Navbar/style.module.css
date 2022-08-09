@@ -27,7 +27,7 @@
 }
 
 .brandWrapper {
-  color: #BF3064;
+  color: var(--mainColor);
   font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -42,7 +42,7 @@
 }
 
 .brand {
-  color: #BF3064;
+  color: var(--mainColor);
 }
 
 .navLinks {
