@@ -68,6 +68,12 @@
   gap: .5em;
 }
 
+.cardContent h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: .3px;
+}
+
 @media screen and (min-width: 350px) {
   .sectionHeader::after{
     content: 'Nossos Doces';
@@ -75,10 +81,6 @@
     left: 0;
     right: 0;
     display: initial;
-  }
-
-  .productGrid {
-    /* margin-top: -50px; */
   }
 }
 

@@ -12,6 +12,10 @@
   margin-bottom: -5px;
 }
 
+.waveWrapper img {
+  margin-bottom: -5px;
+}
+
 .lastWaveWrapper {
   width: 100%;
   background-color: #BF3064;
@@ -84,15 +88,21 @@
   margin-top: 2em;
   max-width: max-content;
   margin-right: 0;
+  margin: 2em auto 1em auto;
 }
 
 .socialMedia p {
   margin-bottom: 1em;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .iconsWrapper {
   display: flex;
+  justify-content: center;
   gap: 1em;
+  margin: auto;
 }
 
 .iconWrapper {

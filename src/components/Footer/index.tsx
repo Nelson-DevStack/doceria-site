@@ -16,6 +16,7 @@ const Footer = () => {
         <div className={style.footerColumns}>
           <div className={style.footerCol}>
             <h2 className={style.colTitle}>Navegação</h2>
+
             <li>
               <a href="/">Home</a>
             </li>
@@ -28,13 +29,16 @@ const Footer = () => {
             <li>
               <a href="/">Contato</a>
             </li>
+            <li>
+              <a href="/">Reviews</a>
+            </li>
           </div>
 
           <div className={style.footerCol}>
             <h2 className={style.colTitle}>Redes Sociais</h2>
 
             <li>
-              <a href="/">Instagram</a>
+              <a href="https://instagram.com">Instagram</a>
             </li>
             <li>
               <a href="/">Facebook</a>
