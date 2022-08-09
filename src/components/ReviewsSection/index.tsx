@@ -1,3 +1,5 @@
+import React from 'react';
+
 import face1 from '../../assets/face1.jpg';
 import face2 from '../../assets/face2.jpg';
 import face3 from '../../assets/face3.jpg';

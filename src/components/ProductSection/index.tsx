@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cakeImage from '../../assets/cake-image.jpg';
 import donutImage from '../../assets/donuts.jpg';
 import greenCupcake from '../../assets/green-pink-cupcake.jpg';

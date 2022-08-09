@@ -16,7 +16,6 @@
 
 .container {
   height: 100%;
-  border: 1px solid red;
 }
 
 .navbarContent {
@@ -38,10 +37,8 @@
 }
 
 .brandImage {
-  /* width: 2.5em; */
   width: 1.6em;
   margin-right: 10px;
-  /* margin-top: -5px; */
 }
 
 .brand {
@@ -49,55 +46,11 @@
 }
 
 .navLinks {
-  /* display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 80px;
-  opacity: 0.8;
-  width: 100%;
-  min-height: 100vh;
-  right: 0;
-  padding: 1em 0 2em 0; */
-  /* From https://css.glass */
-  /* background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px); */
-  /* border: 1px solid rgba(255, 255, 255, 0.2); */
-
-  /* From https://css.glass */
-/* background: rgba(255, 255, 255, 0.64);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(16.4px);
--webkit-backdrop-filter: blur(16.4px);
-border: 1px solid rgba(255, 255, 255, 0.2); */
-
-/* From https://css.glass */
-/* background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3); */
-
-  /* From https://css.glass */
-/* background: rgba(255, 255, 255, 0.35);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(7.2px);
--webkit-backdrop-filter: blur(7.2px);
-border: 1px solid rgba(255, 255, 255, 0.3); */
-
-  /* From https://css.glass */
   transition: 1000ms;
   background: rgba(255, 255, 255, 0.94);
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-  /* background: rgba(191, 48, 100, 0.11); */
   backdrop-filter: blur(7.2px);
   -webkit-backdrop-filter: blur(7.2px);
-  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   position: absolute;
-  /* background-color: #BF3064; */
   min-width: 100%;
   width: 100%;
   right: 0;

@@ -1,3 +1,4 @@
+import React from 'react';
 import { BiChevronRight } from 'react-icons/bi';
 
 import Container from '../Ui/Container/Container';

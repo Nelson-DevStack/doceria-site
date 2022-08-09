@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cookingImg from '../../assets/cooking.jpg';
 import kitchenImg from '../../assets/kitchen.jpg';
 import Container from '../Ui/Container/Container';

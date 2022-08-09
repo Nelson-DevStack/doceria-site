@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cakeLogo from '../../assets/cake-icon.svg';
 import Container from '../Ui/Container/Container';
 import style from './style.module.css';
