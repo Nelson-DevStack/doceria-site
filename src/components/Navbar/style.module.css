@@ -5,6 +5,13 @@
   align-items: center;
   grid-column: span 3 / span 3;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.hiddenNavbar {
+  display: none;
 }
 
 .container {

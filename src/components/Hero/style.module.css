@@ -2,6 +2,7 @@
   width: 100%;
   display: grid;
   grid-column: span 3 / span 3;
+  margin-top: 80px;
 }
 
 .container {

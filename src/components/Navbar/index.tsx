@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
 
 import cakeIcon from '../../assets/cake-icon.svg';
@@ -6,7 +7,7 @@ import styles from './style.module.css';
 
 const Navbar = () => {
   return (
-    <header className={styles.navbar}>
+    <header className={`${styles.navbar}`}>
       <Container className={styles.container}>
         <nav className={styles.navbarContent}>
           <a href="/">
