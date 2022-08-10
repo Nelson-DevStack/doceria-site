@@ -23,7 +23,15 @@ const Navbar = () => {
       <Container className={styles.container}>
         <nav className={styles.navbarContent}>
           <nav className={styles.brandWrapper}>
-            <Link href="/" to="home" spy smooth duration={500} offset={-100}>
+            <Link
+              href="/"
+              to="home"
+              spy
+              smooth
+              duration={500}
+              offset={-100}
+              onClick={() => setShowNavbar(false)}
+            >
               <img
                 src={cakeIcon}
                 className={styles.brandImage}
@@ -37,6 +45,7 @@ const Navbar = () => {
               duration={500}
               offset={-100}
               className={styles.brand}
+              onClick={() => setShowNavbar(false)}
               style={{
                 transition: '300ms',
                 opacity: !showBrandName && !showNavbar ? '0' : '1',
@@ -61,7 +70,7 @@ const Navbar = () => {
                   smooth
                   duration={500}
                   offset={-100}
-                  onClick={() => setShowNavbar(!showNavbar)}
+                  onClick={() => setShowNavbar(false)}
                 >
                   Home
                 </Link>
@@ -74,7 +83,7 @@ const Navbar = () => {
                   smooth
                   duration={500}
                   offset={-60}
-                  onClick={() => setShowNavbar(!showNavbar)}
+                  onClick={() => setShowNavbar(false)}
                 >
                   Doces
                 </Link>
@@ -87,7 +96,7 @@ const Navbar = () => {
                   smooth
                   duration={500}
                   offset={-50}
-                  onClick={() => setShowNavbar(!showNavbar)}
+                  onClick={() => setShowNavbar(false)}
                 >
                   Sobre
                 </Link>
@@ -100,7 +109,7 @@ const Navbar = () => {
                   smooth
                   duration={500}
                   offset={20}
-                  onClick={() => setShowNavbar(!showNavbar)}
+                  onClick={() => setShowNavbar(false)}
                 >
                   Contato
                 </Link>
@@ -113,7 +122,7 @@ const Navbar = () => {
                   smooth
                   duration={500}
                   offset={-70}
-                  onClick={() => setShowNavbar(!showNavbar)}
+                  onClick={() => setShowNavbar(false)}
                 >
                   Reviews
                 </Link>

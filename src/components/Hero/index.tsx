@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiChevronRight } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 
 import { MainColor } from '../Ui/Colors';
 import Container from '../Ui/Container/Container';
@@ -19,9 +20,9 @@ const Hero = () => {
 
           <Text>Feito por profissionais e experts da Confeitaria</Text>
 
-          <button className={style.button} type="button">
+          <Link className={style.button} spy smooth duration={500} to="doces">
             <BiChevronRight fontSize="30px" /> Ver produtos
-          </button>
+          </Link>
         </div>
       </Container>
 
