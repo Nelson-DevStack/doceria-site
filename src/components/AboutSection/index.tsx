@@ -10,7 +10,7 @@ import style from './style.module.css';
 
 const AboutSection = () => {
   return (
-    <div className={style.section}>
+    <div className={style.section} id="sobre">
       <Container>
         <div className={style.contentWrapper}>
           <Heading>Quem somos?</Heading>

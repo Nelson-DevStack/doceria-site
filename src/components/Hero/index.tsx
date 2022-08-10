@@ -9,7 +9,7 @@ import style from './style.module.css';
 
 const Hero = () => {
   return (
-    <section className={style.hero}>
+    <section className={style.hero} id="home">
       <Container className={style.container}>
         <div className={style.content}>
           <Heading>

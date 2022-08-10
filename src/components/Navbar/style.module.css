@@ -79,6 +79,10 @@
   padding: 10px;
 }
 
+.navLinks li .active {
+  color: var(--mainColor);
+}
+
 .menuBtn {
   display: flex;
   align-items: center;
@@ -121,6 +125,10 @@
     margin: 0;
     font-size: 1em;
     padding: 0;
+  }
+
+  .hiddenNavLinks {
+    transform: translateY(0);
   }
 
   .menuBtn {

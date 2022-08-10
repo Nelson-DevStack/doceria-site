@@ -10,7 +10,7 @@ import style from './style.module.css';
 
 const ProductSection = () => {
   return (
-    <section className={style.section}>
+    <section className={style.section} id="doces">
       <Container>
         <div className={style.sectionHeader}>
           <Heading>Nossos Doces</Heading>

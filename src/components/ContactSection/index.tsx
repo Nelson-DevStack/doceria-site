@@ -11,7 +11,7 @@ import style from './style.module.css';
 
 const ContactSection = () => {
   return (
-    <section className={style.section}>
+    <section className={style.section} id="contato">
       <div className={style.waveWrapper}>
         <img src={firstWave} alt="Onda de decoração" />
       </div>

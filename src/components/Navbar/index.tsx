@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BiMenuAltRight, BiX } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 
 import cakeIcon from '../../assets/cake-icon.svg';
 import Container from '../Ui/Container/Container';
@@ -22,15 +23,19 @@ const Navbar = () => {
       <Container className={styles.container}>
         <nav className={styles.navbarContent}>
           <nav className={styles.brandWrapper}>
-            <a href="/">
+            <Link href="/" to="home" spy smooth duration={500} offset={-100}>
               <img
                 src={cakeIcon}
                 className={styles.brandImage}
                 alt="Brand Logo"
               />
-            </a>
-            <a
-              href="/"
+            </Link>
+            <Link
+              to="home"
+              spy
+              smooth
+              duration={500}
+              offset={-100}
               className={styles.brand}
               style={{
                 transition: '300ms',
@@ -38,7 +43,7 @@ const Navbar = () => {
               }}
             >
               Doceria
-            </a>
+            </Link>
           </nav>
 
           <nav
@@ -48,19 +53,70 @@ const Navbar = () => {
           >
             <ul>
               <li>
-                <a href="/">Home</a>
+                {/* <a href="/">Home</a> */}
+                <Link
+                  to="home"
+                  activeClass={styles.active}
+                  spy
+                  smooth
+                  duration={500}
+                  offset={-100}
+                  onClick={() => setShowNavbar(!showNavbar)}
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="/">Doces</a>
+                <Link
+                  to="doces"
+                  activeClass={styles.active}
+                  spy
+                  smooth
+                  duration={500}
+                  offset={-60}
+                  onClick={() => setShowNavbar(!showNavbar)}
+                >
+                  Doces
+                </Link>
               </li>
               <li>
-                <a href="/">Sobre</a>
+                <Link
+                  to="sobre"
+                  activeClass={styles.active}
+                  spy
+                  smooth
+                  duration={500}
+                  offset={-50}
+                  onClick={() => setShowNavbar(!showNavbar)}
+                >
+                  Sobre
+                </Link>
               </li>
               <li>
-                <a href="/">Contato</a>
+                <Link
+                  to="contato"
+                  activeClass={styles.active}
+                  spy
+                  smooth
+                  duration={500}
+                  offset={20}
+                  onClick={() => setShowNavbar(!showNavbar)}
+                >
+                  Contato
+                </Link>
               </li>
               <li>
-                <a href="/">Reviews</a>
+                <Link
+                  to="reviews"
+                  activeClass={styles.active}
+                  spy
+                  smooth
+                  duration={500}
+                  offset={-70}
+                  onClick={() => setShowNavbar(!showNavbar)}
+                >
+                  Reviews
+                </Link>
               </li>
             </ul>
           </nav>

@@ -12,7 +12,7 @@ const ReviewsSection = () => {
   return (
     <section className={style.section}>
       <Container>
-        <div className={style.secTitle}>
+        <div className={style.secTitle} id="reviews">
           <Heading>Não fique de fora, experimente</Heading>
         </div>
 
