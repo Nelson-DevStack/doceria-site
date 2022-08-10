@@ -15,7 +15,7 @@ const AboutSection = () => {
       <Container>
         <div className={style.contentWrapper}>
           <motion.span
-            initial={{ x: 500 }}
+            initial={{ x: 150 }}
             whileInView={{ x: 0 }}
             viewport={{ once: true }}
             transition={{ ease: 'easeOut', duration: 0.8 }}
@@ -24,7 +24,7 @@ const AboutSection = () => {
           </motion.span>
           <motion.div
             className={style.imagesWrapper}
-            initial={{ x: -500 }}
+            initial={{ x: -150 }}
             whileInView={{ x: 0, transitionDuration: '300ms' }}
             viewport={{ once: true }}
           >
