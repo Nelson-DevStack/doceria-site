@@ -14,15 +14,27 @@ const AboutSection = () => {
     <div className={style.section} id="sobre">
       <Container>
         <div className={style.contentWrapper}>
-          <Heading>Quem somos?</Heading>
-          <div className={style.imagesWrapper}>
+          <motion.span
+            initial={{ x: 500 }}
+            whileInView={{ x: 0 }}
+            viewport={{ once: true }}
+            transition={{ ease: 'easeOut', duration: 0.8 }}
+          >
+            <Heading>Quem somos?</Heading>
+          </motion.span>
+          <motion.div
+            className={style.imagesWrapper}
+            initial={{ x: -500 }}
+            whileInView={{ x: 0, transitionDuration: '300ms' }}
+            viewport={{ once: true }}
+          >
             <img src={kitchenImg} alt="Cozinha" className={style.firstImg} />
             <img
               src={cookingImg}
               alt="Preparo da comida"
               className={style.secondImg}
             />
-          </div>
+          </motion.div>
 
           <motion.div
             className={style.textWrapper}

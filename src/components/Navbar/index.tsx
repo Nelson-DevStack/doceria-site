@@ -62,7 +62,6 @@ const Navbar = () => {
           >
             <ul>
               <li>
-                {/* <a href="/">Home</a> */}
                 <Link
                   to="home"
                   activeClass={styles.active}
