@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 import cookingImg from '../../assets/cooking.jpg';
@@ -23,7 +24,12 @@ const AboutSection = () => {
             />
           </div>
 
-          <div className={style.textWrapper}>
+          <motion.div
+            className={style.textWrapper}
+            initial={{ opacity: 0, transitionDuration: '500ms' }}
+            whileInView={{ opacity: 1, transitionDuration: '500ms' }}
+            viewport={{ once: true }}
+          >
             <Text>
               Desde 1995, nossa empresa é voltada para a produção de diversos
               tipos de Doces.
@@ -34,13 +40,9 @@ const AboutSection = () => {
             </Text>
             <Text>
               Não só confeitamos, nós fazemos a{' '}
-              <span style={{ color: MainColor, textDecoration: 'underline' }}>
-                {' '}
-                Arte da Confeitaria
-              </span>
-              .
+              <span style={{ color: MainColor }}> Arte da Confeitaria</span>.
             </Text>
-          </div>
+          </motion.div>
         </div>
       </Container>
     </div>

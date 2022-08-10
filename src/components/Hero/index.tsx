@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import { BiChevronRight } from 'react-icons/bi';
 import { Link } from 'react-scroll';
@@ -12,7 +13,11 @@ const Hero = () => {
   return (
     <section className={style.hero} id="home">
       <Container className={style.container}>
-        <div className={style.content}>
+        <motion.div
+          className={style.content}
+          initial={{ x: -50, opacity: 0.2 }}
+          animate={{ x: 0, opacity: 1 }}
+        >
           <Heading>
             Experimente os{' '}
             <span style={{ color: MainColor }}>melhores doces</span>
@@ -23,10 +28,14 @@ const Hero = () => {
           <Link className={style.button} spy smooth duration={500} to="doces">
             <BiChevronRight fontSize="30px" /> Ver produtos
           </Link>
-        </div>
+        </motion.div>
       </Container>
 
-      <div className={style.heroImage} />
+      <motion.div
+        initial={{ opacity: 0.2 }}
+        animate={{ opacity: 1 }}
+        className={style.heroImage}
+      />
     </section>
   );
 };

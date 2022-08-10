@@ -36,7 +36,7 @@ const ProductSection = () => {
             <div className={style.cardContent}>
               <h1>Bolos</h1>
               <Text>
-                Nossos excelenetes bolos se destacam pela qualidade e sabor.
+                Nossos excelentes bolos se destacam pela qualidade e sabor.
                 Fazemos bolos de Casamento, Aniversário e diversos outros tipos.
               </Text>
             </div>

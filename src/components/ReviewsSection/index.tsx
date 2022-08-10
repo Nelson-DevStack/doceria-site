@@ -54,7 +54,7 @@ const ReviewsSection = () => {
               <span>Cliente</span>
             </div>
 
-            <Text>Os doces são excelenetes e o antendimento foi nota 10!</Text>
+            <Text>Os doces são excelentes e o antendimento foi nota 10!</Text>
           </div>
         </div>
       </Container>

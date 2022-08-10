@@ -44,15 +44,24 @@ const ContactSection = () => {
             <div className={style.socialMedia}>
               <p>Ou confira nossas Redes:</p>
               <div className={style.iconsWrapper}>
-                <div className={`${style.iconWrapper} ${style.instaIcon}`}>
+                <a
+                  href="https://instagram.com"
+                  className={`${style.iconWrapper} ${style.instaIcon}`}
+                >
                   <FaInstagram fontSize={26} />
-                </div>
-                <div className={`${style.iconWrapper} ${style.fbIcon}`}>
+                </a>
+                <a
+                  href="https://facebook.com"
+                  className={`${style.iconWrapper} ${style.fbIcon}`}
+                >
                   <FaFacebookF fontSize={20} />
-                </div>
-                <div className={`${style.iconWrapper} ${style.whatsappIcon}`}>
+                </a>
+                <a
+                  href="https://whatsapp.com"
+                  className={`${style.iconWrapper} ${style.whatsappIcon}`}
+                >
                   <FaWhatsapp fontSize={26} />
-                </div>
+                </a>
               </div>
             </div>
           </div>
