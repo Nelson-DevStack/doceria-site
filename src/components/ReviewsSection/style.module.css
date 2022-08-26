@@ -1,6 +1,6 @@
 .section {
-  /* padding: 0 0 8em 0; */
-  padding: 8em 0 8em 0;
+  /* padding: 8em 0 8em 0; */
+  padding: 15em 0 8em 0;
   width: 100%;
   background-color: var(--mainColor);
   grid-column: span 3;
@@ -75,7 +75,8 @@
 @media screen and (min-width: 768px) {
   .section {
     grid-column: span 12;
-    padding: 0 0 15em 0;
+    /* padding: 0 0 15em 0; */
+    padding: 8em 0 15em 0;
   }
 
   .section::after {

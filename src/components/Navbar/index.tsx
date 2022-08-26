@@ -107,7 +107,7 @@ const Navbar = () => {
                   spy
                   smooth
                   duration={500}
-                  offset={20}
+                  offset={90}
                   onClick={() => setShowNavbar(false)}
                 >
                   Contato
@@ -120,7 +120,7 @@ const Navbar = () => {
                   spy
                   smooth
                   duration={500}
-                  offset={-70}
+                  offset={-90}
                   onClick={() => setShowNavbar(false)}
                 >
                   Reviews

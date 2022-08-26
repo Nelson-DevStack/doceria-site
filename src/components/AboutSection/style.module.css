@@ -1,7 +1,6 @@
 .section {
   width: 100%;
   grid-column: span 3;
-  /* padding: 2em 0; */
   padding: 5em 0;
   z-index: 10;
 }
@@ -52,7 +51,7 @@
   .section {
     grid-column: span 12;
     grid-auto-rows: auto;
-    padding: 3em;
+    /* padding: 3em; */
   }
 
   .contentWrapper {
