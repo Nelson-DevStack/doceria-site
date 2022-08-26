@@ -50,6 +50,12 @@
   text-decoration: underline;
 }
 
+.footerInfo {
+  text-align: center;
+  margin-top: 5em;
+  font-size: .9em;
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     grid-column: span 12;

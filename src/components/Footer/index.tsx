@@ -2,6 +2,7 @@ import React from 'react';
 
 import cakeLogo from '../../assets/cake-icon.svg';
 import Container from '../Ui/Container/Container';
+import Text from '../Ui/Text';
 import style from './style.module.css';
 
 const Footer = () => {
@@ -52,6 +53,10 @@ const Footer = () => {
               <a href="/">Gmail</a>
             </li>
           </div>
+        </div>
+
+        <div className={style.footerInfo}>
+          <Text>Desenvolvido por Nelson Carvalho - 2022</Text>
         </div>
       </Container>
     </footer>
