@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 import secondWave from '../../assets/bluewave.svg';
-import contactImage from '../../assets/contact-image.jpg';
+import contactImage from '../../assets/contact_image.jpg';
 import firstWave from '../../assets/wave-blue.svg';
 import Container from '../Ui/Container/Container';
 import Heading from '../Ui/Heading';

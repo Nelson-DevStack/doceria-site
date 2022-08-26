@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 
-import cookingImg from '../../assets/cooking.jpg';
-import kitchenImg from '../../assets/kitchen.jpg';
+import aboutImg1 from '../../assets/about_image1.jpg';
+import aboutImg2 from '../../assets/about_image2.jpg';
 import { MainColor } from '../Ui/Colors';
 import Container from '../Ui/Container/Container';
 import Heading from '../Ui/Heading';
@@ -28,9 +28,9 @@ const AboutSection = () => {
             whileInView={{ x: 0, transitionDuration: '300ms' }}
             viewport={{ once: true }}
           >
-            <img src={kitchenImg} alt="Cozinha" className={style.firstImg} />
+            <img src={aboutImg1} alt="Cozinha" className={style.firstImg} />
             <img
-              src={cookingImg}
+              src={aboutImg2}
               alt="Preparo da comida"
               className={style.secondImg}
             />
